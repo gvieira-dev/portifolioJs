@@ -347,24 +347,22 @@ h1{
 @media (max-width: 768px){
 
     .navegacao{
-        padding: 1rem 0.5rem;
+        padding: 0.8rem 0;
     }
 
     .menu{
+        display: flex;
         justify-content: center;
-        gap: 0.8rem;
+        align-items: center;
+        gap: 0.5rem;
 
-        overflow-x: auto;
-        white-space: nowrap;
-
-        scrollbar-width: none;
-    }
-
-    .menu::-webkit-scrollbar{
-        display: none;
+        list-style: none;
+        padding: 0;
+        margin: 0;
     }
 
     .menu_link{
-        font-size: 0.85rem;
+        font-size: 0.7rem;
+        padding: 0.2rem;
     }
 }
