@@ -1,5 +1,7 @@
 # 🚀 Portfólio - Gustavo Vieira
 
+Projeto desenvolvido para a disciplina de Fundamentos da Programação Web.
+
 Este é o meu portfólio pessoal desenvolvido com o objetivo de apresentar meus projetos, habilidades e informações profissionais de forma moderna e responsiva.
 
 🔗 **Acesse o projeto online:**  
@@ -8,8 +10,6 @@ https://gvieira-dev.github.io/portifolioJs/
 ---
 
 ## 🧠 Sobre o projeto
-
-Projeto desenvolvido para a disciplina de Fundamentos da Programação Web.
 
 O portfólio foi desenvolvido utilizando HTML, CSS e JavaScript puro, com foco em:
 
