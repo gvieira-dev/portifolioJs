@@ -342,3 +342,29 @@ h1{
     0%,100%{ transform: translateY(0); }
     50%{ transform: translateY(-20%); }
 }
+
+/* NAV MOBILE */
+@media (max-width: 768px){
+
+    .navegacao{
+        padding: 1rem 0.5rem;
+    }
+
+    .menu{
+        justify-content: center;
+        gap: 0.8rem;
+
+        overflow-x: auto;
+        white-space: nowrap;
+
+        scrollbar-width: none;
+    }
+
+    .menu::-webkit-scrollbar{
+        display: none;
+    }
+
+    .menu_link{
+        font-size: 0.85rem;
+    }
+}
