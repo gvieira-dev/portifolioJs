@@ -9,6 +9,8 @@ https://gvieira-dev.github.io/portifolioJs/
 
 ## 🧠 Sobre o projeto
 
+Projeto desenvolvido para a disciplina de Fundamentos da Programação Web.
+
 O portfólio foi desenvolvido utilizando HTML, CSS e JavaScript puro, com foco em:
 
 - Interface moderna e limpa  
