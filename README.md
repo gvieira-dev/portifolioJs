@@ -3,7 +3,7 @@
 Este é o meu portfólio pessoal desenvolvido com o objetivo de apresentar meus projetos, habilidades e informações profissionais de forma moderna e responsiva.
 
 🔗 **Acesse o projeto online:**  
-https://seuusuario.github.io/portifolioJs
+https://gvieira-dev.github.io/portifolioJs/
 
 ---
 
@@ -50,5 +50,3 @@ O site foi desenvolvido para funcionar bem em:
 - 📟 Tablets  
 
 ---
-
-## 📂 Estrutura do projeto
