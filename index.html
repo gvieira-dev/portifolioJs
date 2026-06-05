@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portifólio</title>
+</head>
+<body>
+    <div class="particulas"></div>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu_link">Início</a>
+            </li>
+             <li>
+                <a href="#sobre" class="menu_link">Sobre</a>
+            </li>
+            <li>
+                <a href="#formacao" class="menu_link">Formação</a>
+            </li>
+             <li>
+                <a href="#projetos" class="menu_link">Projetos</a>
+            </li>
+             <li>
+                <a href="#contatos" class="menu_link">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+            <img src="img/perfil.png" class="foto_perfil">
+            <h1>Gustavo Vieira</h1>
+            <p class="desc_cabecalho">Desenvolvedor Junior</p>     
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre_titulo">Sobre mim</h2>
+        <div class="sobre_caixa"> 
+            <p class="sobre_paragrafo">Olá! Meu nome é Gustavo. Sou formado em Técnico em Informática e curso Análise e Desenvolvimento de Sistemas. Tenho interesse em tecnologia, com conhecimentos em programação, suporte técnico, infraestrutura e redes. Estou em busca de oportunidades para colocar meus conhecimentos em prática, adquirir experiência e crescer profissionalmente na área de TI.</p>
+        </div>
+    </section>
+
+    <section id="formacao" class="formacao">
+        <h2 class="formacao_titulo">Formação</h2>
+
+        <div class="formacao_caixa">
+
+            <h3>Técnico em Informática - Senac</h3>
+            <p>Conclusão: 2026</p>
+
+            <h3>Técnico em Análise e Desenvolvimento de Sistemas - Proz</h3>
+            <p>2026 - 2028</p>
+
+            <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas - Uninter</h3>
+            <p>2025 - 2027</p>
+
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos_titulo">Meus Projetos</h2>
+        <div class="projetos_div"> 
+
+            <div class="projetos_card"
+            onclick="window.open('https://github.com/gvieira-dev/Finly', '_blank')">
+                    <img src="img/finly.png" alt="img"  class="projetos_imagem">
+                <div class="caixa_textos_projetos">
+                    <h3 class="info_projetos">Finly – Simulador Financeiro</h3>
+                    <p class="desc_projetos">Sistema web de finanças pessoais desenvolvido para praticar conceitos full stack, permitindo controle de receitas e despesas, simulação de metas financeiras e visualização de saldo por meio de dashboards e gráficos interativos. Construído com PHP, MySQL, HTML, CSS e JavaScript.</p>
+                </div>
+            </div>
+
+             <div class="projetos_card" 
+             onclick="window.open('https://gvieira-dev.github.io/todo_react/', '_blank')">
+                    <img src="img/ToDo.png" alt="img"  class="projetos_imagem">
+                <div class="caixa_textos_projetos">
+                    <h3 class="info_projetos">To-Do</h3>
+                    <p class="desc_projetos">Um aplicativo de lista de tarefas desenvolvido em React com foco em produtividade, organização e uma interface limpa.</p>
+                </div>
+            </div>
+
+             <div class="projetos_card"
+             onclick="window.open('https://gvieira-dev.github.io/landing-page-apple-/', '_blank')">
+                <img src="img/apple.png" alt="img"  class="projetos_imagem">
+            <div class="caixa_textos_projetos">
+                <h3 class="info_projetos">Landing Page</h3>
+                <p class="desc_projetos">Projeto de landing page inspirado na identidade visual da Apple, desenvolvido com HTML, CSS e JavaScript. O foco foi criar uma interface elegante, responsiva e interativa, proporcionando uma experiência de navegação fluida em diferentes dispositivos</p>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+    <h2 class="contatos_titulo">Entre em Contato</h2>
+    <form class="formulario_contato" id="formulario" onsubmit="enviarEmail(event)">
+    
+        <div class="grupo_form">
+            <input placeholder="Nome" class="campo_form" id="nome">
+        </div>
+
+        <div class="grupo_form">
+            <input type="email" placeholder="Email" class="campo_form" id="email">
+        </div>
+
+        <div class="grupo_form">
+            <textarea placeholder="Digite sua Mensagem" rows="6" class="campo_form" id="mensagem"></textarea>
+        </div>
+
+        <button type="submit" class="botao_form">Enviar mensagem</button>
+    </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
