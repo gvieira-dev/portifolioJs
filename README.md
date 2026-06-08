@@ -5,7 +5,7 @@ Projeto desenvolvido para a disciplina de Fundamentos da Programação Web.
 Este é o meu portfólio pessoal desenvolvido com o objetivo de apresentar meus projetos, habilidades e informações profissionais de forma moderna e responsiva.
 
 🔗 **Acesse o projeto online:**  
-https://gvieira-dev.github.io/portifolioJs/
+https://gvieira-dev.github.io/portfolioJs/
 
 ---
 
